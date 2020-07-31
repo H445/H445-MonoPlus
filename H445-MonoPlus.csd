@@ -16,8 +16,8 @@ groupbox bounds(108, 120, 144, 120) text("filter")
     
 groupbox bounds(6, 6, 200, 100) text("amp envelope")
     vslider bounds(14, 28, 50, 76) range(0, 1, 0.1, 1, 0.001) text("attack") channel("attack")
-    vslider bounds(54, 28, 50, 76) range(0, 1, 0.2, 1, 0.001) text("sustain") channel("sustain")
-    vslider bounds(94, 28, 50, 76) range(0, 1, 0.6, 1, 0.001) text("decay") channel("decay")
+    vslider bounds(54, 28, 50, 76) range(0, 1, 0.2, 1, 0.001) text("decay") channel("decay")
+    vslider bounds(94, 28, 50, 76) range(0, 1, 0.6, 1, 0.001) text("sustain") channel("sustain")
     vslider bounds(134, 28, 50, 76) range(0, 1, 0.4, 1, 0.001) text("release") channel("release")
     
 keyboard bounds(8, 252, 388, 95)
