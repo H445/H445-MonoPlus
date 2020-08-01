@@ -7,15 +7,15 @@ groupbox bounds(6, 120, 101, 120) text("mod")
     
 groupbox bounds(254, 120, 144, 120) text("lfo")
     rslider bounds(260, 150, 60, 60) range(0, 10, 0, 1, 0.001) text("rate") channel("rate")
-    rslider bounds(332, 150, 60, 60) range(0, 1, 0.5, 1, 0.001) text("intensity") channel("intensity")
+    rslider bounds(332, 150, 60, 60) range(0.001, 1, 0.5, 1, 0.001) text("intensity") channel("intensity")
     hslider bounds(260, 212, 140, 20) range(4, 5, 5, 1, 1) text("lfo type") channel("LFOtype")
     
 groupbox bounds(108, 120, 144, 120) text("filter")
     rslider bounds(114, 150, 60, 60) range(1, 20000, 10000, 1, 0.001) text("cutoff") channel("cutoff")
-    rslider bounds(186, 150, 60, 60) range(0, 1, 0, 1, 0.001) text("resonance") channel("resonance")
+    rslider bounds(186, 150, 60, 60) range(0, 0.995, 0, 1, 0.001) text("resonance") channel("resonance")
     
 groupbox bounds(6, 6, 200, 100) text("amp envelope")
-    vslider bounds(14, 28, 50, 76) range(0, 1, 0.1, 1, 0.001) text("attack") channel("attack")
+    vslider bounds(14, 28, 50, 76) range(0.001, 1, 0.1, 1, 0.001) text("attack") channel("attack")
     vslider bounds(54, 28, 50, 76) range(0, 1, 0.2, 1, 0.001) text("decay") channel("decay")
     vslider bounds(94, 28, 50, 76) range(0, 1, 0.6, 1, 0.001) text("sustain") channel("sustain")
     vslider bounds(134, 28, 50, 76) range(0, 1, 0.4, 1, 0.001) text("release") channel("release")
